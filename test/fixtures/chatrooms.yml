@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  topic: MyString
+  presence: false
+  uniqueness: false
+  case_sensitive: false
+
+two:
+  user: two
+  topic: MyString
+  presence: false
+  uniqueness: false
+  case_sensitive: false

@@ -1,0 +1,9 @@
+<%
+=begin%>
+ <%= collection.each do |message| %>
+  <p> <b>message.user.email</b> message.text</p>
+<% end %> 
+<%
+=end%>
+
+<p> <b><%= message.user.email %></b> <%= message.text%></p>
